@@ -1,0 +1,42 @@
+# ==================== Python (Server) ====================
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+*.db
+*.sqlite
+.env
+
+# ==================== Java / Kotlin ====================
+*.class
+*.jar
+!client/gradle/wrapper/gradle-wrapper.jar
+META-INF/
+
+# ==================== Android (Client) ====================
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.jks
+*.keystore
+keystore.properties
+
+# ==================== IDE / OS ====================
+.idea/
+*.iml
+.vs/
+.vscode/
+*.user
+.DS_Store
+Thumbs.db
+*.log
